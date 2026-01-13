@@ -4,6 +4,8 @@ A color theme for **iTerm2** terminal based on the **Cursor** editor color palet
 
 ![Light & Dark](https://img.shields.io/badge/Theme-Light%20%26%20Dark-blue)
 
+![Screenshot](screenshot.png)
+
 ## Files
 
 | File | Description |
