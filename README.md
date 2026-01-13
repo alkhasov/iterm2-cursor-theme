@@ -1,74 +1,74 @@
 # Cursor Theme for iTerm2
 
-Цветовая тема для терминала **iTerm2**, созданная на основе цветовой палитры редактора **Cursor** (Light & Dark).
+A color theme for **iTerm2** terminal based on the **Cursor** editor color palette (Light & Dark).
 
 ![Light & Dark](https://img.shields.io/badge/Theme-Light%20%26%20Dark-blue)
 
-## Файлы
+## Files
 
-| Файл | Описание |
-|------|----------|
-| `Cursor Light Theme.itermcolors` | Светлая тема (только цвета) |
-| `Cursor Dark Theme.itermcolors` | Тёмная тема (только цвета) |
-| `Cursor-Theme.json` | Профиль с автопереключением Light/Dark |
+| File | Description |
+|------|-------------|
+| `Cursor Light Theme.itermcolors` | Light theme (colors only) |
+| `Cursor Dark Theme.itermcolors` | Dark theme (colors only) |
+| `Cursor-Theme.json` | Profile with automatic Light/Dark switching |
 
-## Установка
+## Installation
 
-### Вариант 1: Только цвета (раздельно)
+### Option 1: Profile with Auto-Switching (Recommended)
 
-Используйте `.itermcolors` файлы, если хотите применить цвета к существующему профилю.
+Use the `.json` file to create a profile that **automatically switches colors** when macOS system appearance changes (Light ↔ Dark).
 
-1. Откройте **iTerm2** → **Settings** (⌘,)
-2. Перейдите в **Profiles** → выберите профиль → **Colors**
-3. Внизу справа нажмите **Color Presets...** → **Import...**
-4. Выберите нужный файл:
-   - `Cursor Light Theme.itermcolors` — для светлой темы
-   - `Cursor Dark Theme.itermcolors` — для тёмной темы
-5. Снова откройте **Color Presets...** и выберите импортированную тему
+1. Open **iTerm2** → **Settings** (⌘,)
+2. Go to **Profiles**
+3. In the bottom left corner click **Other Actions...** → **Import JSON Profiles...**
+4. Select the `Cursor-Theme.json` file
+5. The **"Cursor Theme"** profile will appear in the list
 
-### Вариант 2: Профиль с автопереключением (рекомендуется)
+Now your terminal will automatically change colors along with the system!
 
-Используйте `.json` файл для создания профиля, который **автоматически переключает цвета** при смене системной темы macOS (Light ↔ Dark).
+### Option 2: Colors Only (Separate)
 
-1. Откройте **iTerm2** → **Settings** (⌘,)
-2. Перейдите в **Profiles**
-3. В левом нижнем углу нажмите **Other Actions...** → **Import JSON Profiles...**
-4. Выберите файл `Cursor-Theme.json`
-5. Профиль **«Cursor Theme»** появится в списке
+Use `.itermcolors` files if you want to apply colors to an existing profile.
 
-Теперь терминал будет автоматически менять цвета вместе с системой!
+1. Open **iTerm2** → **Settings** (⌘,)
+2. Go to **Profiles** → select a profile → **Colors**
+3. In the bottom right click **Color Presets...** → **Import...**
+4. Select the desired file:
+   - `Cursor Light Theme.itermcolors` — for light theme
+   - `Cursor Dark Theme.itermcolors` — for dark theme
+5. Open **Color Presets...** again and select the imported theme
 
-## Цветовая палитра
+## Color Palette
 
 ### Light Theme
-| Цвет | Hex | Назначение |
-|------|-----|------------|
-| Background | `#FFFFFF` | Фон |
-| Foreground | `#383A42` | Текст |
-| Red | `#E45649` | Ошибки |
-| Green | `#50A14F` | Успех |
-| Yellow | `#C18501` | Предупреждения |
-| Blue | `#4078F2` | Ключевые элементы |
-| Magenta | `#A626A4` | Ключевые слова |
-| Cyan | `#0184BC` | Строки, типы |
+| Color | Hex | Purpose |
+|-------|-----|---------|
+| Background | `#FFFFFF` | Background |
+| Foreground | `#383A42` | Text |
+| Red | `#E45649` | Errors |
+| Green | `#50A14F` | Success |
+| Yellow | `#C18501` | Warnings |
+| Blue | `#4078F2` | Key elements |
+| Magenta | `#A626A4` | Keywords |
+| Cyan | `#0184BC` | Strings, types |
 
 ### Dark Theme
-| Цвет | Hex | Назначение |
-|------|-----|------------|
-| Background | `#1E1E1E` | Фон |
-| Foreground | `#D4D4D4` | Текст |
-| Red | `#E06C75` | Ошибки |
-| Green | `#98C379` | Успех |
-| Yellow | `#E5C07B` | Предупреждения |
-| Blue | `#61AFEF` | Ключевые элементы |
-| Magenta | `#C678DD` | Ключевые слова |
-| Cyan | `#56B6C2` | Строки, типы |
+| Color | Hex | Purpose |
+|-------|-----|---------|
+| Background | `#1E1E1E` | Background |
+| Foreground | `#D4D4D4` | Text |
+| Red | `#E06C75` | Errors |
+| Green | `#98C379` | Success |
+| Yellow | `#E5C07B` | Warnings |
+| Blue | `#61AFEF` | Key elements |
+| Magenta | `#C678DD` | Keywords |
+| Cyan | `#56B6C2` | Strings, types |
 
-## Совместимость
+## Compatibility
 
-- iTerm2 3.4+ (для поддержки автопереключения Light/Dark)
-- macOS 10.14+ (Mojave и новее)
+- iTerm2 3.4+ (for Light/Dark auto-switching support)
+- macOS 10.14+ (Mojave and later)
 
-## Лицензия
+## License
 
 MIT
